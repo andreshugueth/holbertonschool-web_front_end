@@ -13,3 +13,7 @@
 * UI/UX research and development
 * Build static web pages from a designer file
 * Build a dynamic web application in Javascript
+
+## Author
+
+* [Andrés Hugueth](https://github.com/andreshugueth)
