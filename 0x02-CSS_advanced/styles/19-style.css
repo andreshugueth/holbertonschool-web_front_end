@@ -9,7 +9,7 @@
     --text-color: var(--color-black);
     /* font-family */
     --font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    --font-family-title: 'Raleway', var(--font-family-base);
+    --font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --nav-item-font-family: var(--font-family-title);
     /* font-size */
     --font-size-small: 1.2rem;
@@ -54,7 +54,7 @@ html {
     scroll-behavior: smooth;
     font-size: 62.5%;
 
-    -webkit-text-size-adjust: 100%;    
+    -webkit-text-size-adjust: 100%;
 }
 
 body {
@@ -97,7 +97,7 @@ a:link {
 }
 
 a:visited {
-    font-size: italic;
+    font-style: italic;
 }
 
 a:hover {
@@ -281,7 +281,7 @@ template {
     color: var(--nav-item-link-hover);
 }
 
-ul[class="row"] {
+ul.row {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -339,7 +339,8 @@ ul[class="row"] {
 
 .container {
     width: 960px;
-    margin: 0 auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .card-category {
