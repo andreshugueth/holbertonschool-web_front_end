@@ -458,11 +458,11 @@ ul[class="row"] {
     overflow: hidden;
 }
 
-.card-work .card-image {
+.card-work .card-image img {
     height: 30rem;
     width: 100%;
     object-fit: cover;
-    vertical-align: bottom;    
+    vertical-align: bottom;
 }
 
 .card-work .card-inner {
