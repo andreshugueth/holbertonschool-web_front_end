@@ -9,7 +9,7 @@
     --text-color: var(--color-black);
     /* font-family */
     --font-family-base: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    --font-family-title: 'Raleway', var(--font-family-base);
+    --font-family-title: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --nav-item-font-family: var(--font-family-title);
     /* font-size */
     --font-size-small: 1.2rem;
@@ -53,7 +53,7 @@ html {
     scroll-behavior: smooth;
     font-size: 62.5%;
 
-    -webkit-text-size-adjust: 100%;    
+    -webkit-text-size-adjust: 100%;
 }
 
 body {
@@ -96,7 +96,7 @@ a:link {
 }
 
 a:visited {
-    font-size: italic;
+    font-style: italic;
 }
 
 a:hover {
@@ -273,7 +273,7 @@ template {
 
 .nav .nav-link {
     display: block;
-    padding: 0.5rem 1rem 0.5rem 1rem;
+    padding: 0.5rem 1rem;
 }
 
 .nav .nav-link:hover {
@@ -319,7 +319,8 @@ template {
 
 .container {
     width: 960px;
-    margin: 0 auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .card-category {
