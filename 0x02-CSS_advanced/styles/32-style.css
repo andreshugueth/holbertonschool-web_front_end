@@ -65,7 +65,7 @@
     --transition-cubic-bezier: cubic-bezier(0.17, 0.67, 0, 1.01);
 }
 
-[data-section-theme=“dark”] {
+[data-section-theme="dark"] {
     --text-color: var(--color-white);
     --section-title-color: var(--color-white);
     --button-color: var(--color-white);
@@ -149,7 +149,7 @@ a:active {
     text-decoration: var(--button-hover-text-decoration);
     background-color: var(--button-hover-background);
     transition: var(--transition-duration);
-    transition-property: color background-color;
+    transition-property: color, background-color;
 }
 
 abbr[title] {
@@ -353,7 +353,7 @@ template {
     background-color: var(--color-white);
     width: 0;
     height: 0.2rem;
-    transition: var(--transition-cubic-bezier) var(--transition-duration);
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 ul[class="row"] {
@@ -512,7 +512,7 @@ ul[class="row"] {
 
 .card-work:hover .card-image {
     transform: scale(1.2);
-    transition: var(--transition-cubic-bezier) var(--transition-duration);
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .card-work:hover .card-outer {
