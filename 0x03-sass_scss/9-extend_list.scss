@@ -1,0 +1,15 @@
+/* font size and text color */
+%properties {
+    font-size: 12px;
+}
+.info {
+    @extend %properties;
+}
+.success {
+    @extend %properties;
+    color: #00FF00;
+}
+.warning {
+    @extend %properties;
+    color: #FF0000;
+}
