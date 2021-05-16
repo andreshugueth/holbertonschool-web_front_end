@@ -476,14 +476,14 @@
     .section-hero {
       margin: -0.1rem 0;
     }
-  }
 
-  .hero-homepage {
-    background-position: 85% 0;
-  }
+    .hero-homepage {
+      background-position: 85% 0;
+    }
 
-  .section-hero .section-body {
-    padding: 2rem;
+    .section-hero .section-body {
+      padding: 2rem;
+    }
   }
 
   /* Section Latest news
