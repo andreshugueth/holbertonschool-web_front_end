@@ -11,7 +11,7 @@
     background-color: #BC1340;
 }
 
-  .btn-outline-primary {
+.btn-outline-primary {
     color: #E0003C;
     border-color: #E0003C;
 }
@@ -31,7 +31,7 @@
 a,
 a:hover,
 a:focus {
-    color: #E0003C !important;
+    color: #E0003C;
 }
 
 
